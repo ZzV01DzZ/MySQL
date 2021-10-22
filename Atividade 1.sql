@@ -33,4 +33,4 @@ Faça um select que retorne os funcionaries com o salário maior do que 2000.
 Faça um select que retorne os funcionaries com o salário menor do que 2000.
 Ao término atualize um dado desta tabela através de uma query de atualização.
 salve as querys para cada uma dos requisitos o exercício em um arquivo .SQL ou texto e
-coloque no seu GitHuB pessoal e compartilhe esta atividade.*/
+coloque no seu GitHuB pessoal e compartilhe esta atividade./*
