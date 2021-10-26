@@ -6,7 +6,7 @@ CREATE TABLE `Temas` (
 
 CREATE TABLE `Postagens` (
 	`id` bigint NOT NULL AUTO_INCREMENT,
-	`titulo` varchar(255) NOT NULL AUTO_INCREMENT,
+	`titulo` varchar(255) NOT NULL,
 	`texto` varchar(1000) NOT NULL,
 	`data` TIMESTAMP NOT NULL,
 	`tema_id` bigint NOT NULL,
