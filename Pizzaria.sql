@@ -18,10 +18,12 @@ insert into tb_categoria(tamanho, massa, borda_recheada) value ("Média", "Estad
 
 
 create table tb_pizza(
-	Sabor varchar(45) not null,
+	id_pizza int not null auto_increment,
+    Sabor varchar(45) not null,
     Valor dec (10,2) not null,
 	Azeitona enum ('Sim', 'Não'),
     Sabor_Borda varchar(45) not null,
+    primary key (id_pizza),
     fk_cat int not null,
     foreign key (fk_cat) references tb_categoria(id_cat)
 );
