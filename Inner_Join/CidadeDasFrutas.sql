@@ -39,4 +39,16 @@ insert into tb_produto(nome, estoque, estado, valor, fk_cat) values
 ("Couve", 23, 'Fresco', 3.99, 3),
 ("Cenoura", 210,'Xepa', 1.99, 2);
 
+select * from tb_produto where estoque > 400;
 
+select * from tb_produto where estoque between 400 and 600;
+
+select * from tb_produto where nome like "%c%";
+
+select * from tb_produto
+inner join tb_categoria 
+on tb_categoria.id_cat = tb_produto.fk_cat;
+
+select * from tb_produto inner join tb_categoria 
+on tb_categoria.id_cat = tb_produto.fk_cat
+where tb_categoria.id_cat = 3;
